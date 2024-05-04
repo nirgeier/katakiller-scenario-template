@@ -1,0 +1,33 @@
+{
+  "title": "⭐ Killercoda Scenario Bootstrap Template",
+  "description": "https://github.com/nirgeier/killercoda-scenario-template",
+  "author": "Nir Geier nirgeier@gmail.com",
+  "by": "Nir Geier <https://github.com/nirgeier>",
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "details": {
+    "intro": {
+      "text": "00-intro.md",
+      "foreground": "/assets/wait-for-setup.sh",
+      "background": "/assets/setup-kata.sh"
+    },
+    "steps": [
+      {
+        "text": "01.md"
+      },
+      {
+        "text": "02.md"
+      },
+      {
+        "text": "03.md"
+      },
+      {
+        "text": "04.md"
+      }
+    ],
+    "finish": {
+      "text": "99-finish.md"
+    }
+  }
+}
